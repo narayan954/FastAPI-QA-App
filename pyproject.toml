@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-qa-app"
+version = "0.1.0"
+description = ""
+authors = ["Narayan soni <narayansoni854@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+sqlalchemy = "^2.0.31"
+databases = "^0.9.0"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
